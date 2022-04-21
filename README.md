@@ -19,7 +19,9 @@ Text and descriptions of goals, targets and indicators comes from the United Nat
 
 ## Contributing
 
-We are looking for people like you to contribute to this project by suggesting improvements and helping develop it.
+We are looking for people like you to [contribute](CONTRIBUTING.md) to this project by suggesting improvements and helping develop it. Get started by reading our [contributors guide](CONTRIBUTING.md).
+
+Please note that this project is developed with a [code of conduct](CODE_OF_CONDUCT.md). By participating in this project, you agree to abide by its terms. Please be lovely to all other community members.
 
 ## License
 
