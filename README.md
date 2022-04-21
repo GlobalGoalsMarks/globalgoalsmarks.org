@@ -27,4 +27,4 @@ Please note that this project is developed with a [code of conduct](CODE_OF_COND
 
 The code in this repository is available under [Creative Commons 0](LICENSE).
 
-The Global Goals Target Media Cards comes from [Global Goals](https://www.globalgoals.org/resources/) and are available under [Creative Commons Attribution Share Alike 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
+The Global Goals Target Media Cards comes from [Global Goals](https://www.globalgoals.org/resources/) and are available under their [Asset License](https://www.globalgoals.org/asset-licence/).
