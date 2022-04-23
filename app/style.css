@@ -1,3 +1,23 @@
+:root{
+    --goal-1-color: #E5243B;
+    --goal-2-color: #DDA63A;
+    --goal-3-color: #4C9F38;
+    --goal-4-color: #C5192D;
+    --goal-5-color: #FF3A21;
+    --goal-6-color: #26BDE2;
+    --goal-7-color: #FCC30B;
+    --goal-8-color: #A21942;
+    --goal-9-color: #FD6925;
+    --goal-10-color: #DD1367;
+    --goal-11-color: #FD9D24;
+    --goal-12-color: #BF8B2E;
+    --goal-13-color: #3F7E44;
+    --goal-14-color: #0A97D9;
+    --goal-15-color: #56C02B;
+    --goal-16-color: #00689D;
+    --goal-17-color: #19486A;
+}
+
 body {
     font-family: 'Oswald', sans-serif;
     margin: 0;
