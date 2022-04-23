@@ -30,6 +30,25 @@ const targets = [
     }
 ];
 
+function finish() {
+    document.querySelector('h1').innerText = 'You did it!';
+    document.querySelector('body').style.background = '#D13A43';
+    document.querySelector('#question').remove();
+    const parser = new DOMParser();
+    var svg = parser.parseFromString(imageTemplate, 'image/svg+xml');
+    console.log(svg);
+    svg.querySelector('#targetp11p1').style.fill = '#407534';
+    svg.querySelector('#targetp11p2').style.fill = '#F9B00B';
+    svg.querySelector('#targetp11p3').style.fill = '#EB1A2D';
+    svg.querySelector('#targetp11p4').style.fill = '#41B43C';
+    const newImage = window.URL.createObjectURL(new Blob([new XMLSerializer().serializeToString(svg.documentElement)], { type: 'image/svg' }));
+    let downloadA = document.createElement('a');
+    downloadA.href = newImage;
+    downloadA.download = 'global-goals-marks.svg';
+    downloadA.innerText = 'Download';
+    document.querySelector('main').appendChild(downloadA);
+}
+
 // state
 
 let goal = 0;
@@ -45,6 +64,12 @@ function nextTarget() {
         target = 0;
         goal += 1;
     }
+
+    if (!targets[goal]) {
+        finish();
+        return;
+    }
+
     document.querySelector('h1').innerText = targets[goal].goal;
     document.querySelector('img').src = '/images/' + targets[goal].targets[target].media_file;
     document.querySelector('body').style.background = '#' + targets[goal].color;
